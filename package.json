@@ -4,7 +4,8 @@
   "description": "This is a nodeserver for my chat application",
   "main": "index.js",
   "scripts": {
-    "nodemon": "nodemon ./nodeserver/index.js"
+    "nodemon": "nodemon ./nodeserver/index.js",
+    "start": "nodemon ./nodeserver/index.js"
   },
   "author": "Himanshu",
   "license": "ISC",

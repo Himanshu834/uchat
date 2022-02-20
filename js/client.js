@@ -8,7 +8,7 @@
 
 // const socket = io(server);
 
-const socket = io("https://localhost:3000");
+const socket = io();
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp')

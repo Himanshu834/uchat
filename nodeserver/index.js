@@ -8,7 +8,12 @@ const server = express()
   .listen(PORT, () => console.log(`Listening on ${PORT}`));
 
 
-const iio = socketIO(server);
+// const iio = socketIO(server);
+const iio = require('socket.io')(server, {
+    cors: {
+        origin: '*',
+      }
+});
 
 //node server which will handel socket io connections
 

@@ -4,11 +4,12 @@
   "description": "This is a nodeserver for my chat application",
   "main": "index.js",
   "scripts": {
-    "nodemon":"nodemon index.js"
+    "nodemon": "nodemon ./nodeserver/index.js"
   },
   "author": "Himanshu",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.3",
     "socket.io": "^4.4.1"
   },
   "devDependencies": {

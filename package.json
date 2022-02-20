@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "nodemon": "nodemon ./nodeserver/index.js",
-    "start": "nodemon ./nodeserver/index.js"
+    "start": "node ./nodeserver/index.js"
   },
   "author": "Himanshu",
   "license": "ISC",
